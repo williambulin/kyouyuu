@@ -1,0 +1,21 @@
+:root {
+  --white: 255, 255, 255;
+  --black: 25, 30, 35;
+  /* --black: 25, 30, 35; */
+}
+
+.dark {
+  --background: var(--black);
+  --on-background: var(--white);
+
+  --background-color: rgb(var(--background));
+  --on-background-color: rgb(var(--on-background));
+}
+
+.light {
+  --background: var(--white);
+  --on-background: var(--black);
+
+  --background-color: rgb(var(--background));
+  --on-background-color: rgb(var(--on-background));
+}

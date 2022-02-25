@@ -1,0 +1,47 @@
+@import url('/css/theme.css');
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+  gap: 2em;
+  height: 3em;
+}
+
+header .logo {
+  height: 3em;
+}
+
+header .spacer {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+header .spacer-small {
+  width: 1em;
+}
+
+header h3 {
+  font-weight: normal;
+}
+
+header a {
+  font-weight: normal;
+  font-size: 1.15em;
+  color: var(--on-background-color);
+}
+
+header a:hover {
+  color: rgba(var(--on-background), 0.5);
+}
+
+header .fa-brands {
+  font-size: 1.5em;
+}
+
+header .fa-solid {
+  font-size: 1.5em;
+}
