@@ -1,4 +1,4 @@
-@import url('/css/theme.css');
+@import url('/kyouyuu/css/theme.css');
 
 .background {
   z-index: -1;
@@ -8,6 +8,10 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.background-fixed {
+  position: fixed;
 }
 
 .background-image {

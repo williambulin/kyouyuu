@@ -7,9 +7,9 @@
 /* Import Quicksand font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700');
 
-@import url('/css/theme.css');
-@import url('/css/components/scrollbar.css');
-@import url('/css/components/header.css');
+@import url('/kyouyuu/css/theme.css');
+@import url('/kyouyuu/css/components/scrollbar.css');
+@import url('/kyouyuu/css/components/header.css');
 
 * {
   transition: all 0.05s linear;
@@ -80,4 +80,8 @@ a {
 .contained {
   max-width: calc(1280px);
   width: 100%;
+}
+
+.contained-small {
+  max-width: calc(1280px * 0.75);
 }
