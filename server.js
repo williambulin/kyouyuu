@@ -41,7 +41,7 @@ let server = http.createServer(async (req, res) => {
     let headers = {};
     if (path.endsWith('.svg'))
       headers["Content-Type"] = 'image/svg+xml';
-    else if (path.endsWith('.js'))
+    else if (path.endsWith('.js') || path.endsWith('.mjs'))
       headers["Content-Type"] = 'application/javascript';
     else if (path.endsWith('.css'))
       headers["Content-Type"] = 'text/css';

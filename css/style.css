@@ -16,7 +16,8 @@
 }
 
 /* Remove default html padding */
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
@@ -24,10 +25,10 @@ html, body {
 
 html {
   /* Use Quicksand */
-  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
 
   /* Use Product Sans */
-  font-family: 'Product Sans', sans-serif;
+  /* font-family: 'Product Sans', sans-serif; */
 }
 
 body {

@@ -11,7 +11,7 @@ header {
 }
 
 header .logo {
-  height: 3em;
+  height: 100%;
   margin: 0;
   padding: 0;
   display: flex;
@@ -47,4 +47,21 @@ header .fa-brands {
 
 header .fa-solid {
   font-size: 1.5em;
+}
+
+header .profile {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header .profile .avatar {
+  height: 75%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  background-color: rgba(var(--on-background), 0.1);
 }
