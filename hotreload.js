@@ -15,6 +15,12 @@
 
   resourceMap.set(window.location.href, null);
 
+  let elements = document.getElementsByTagName('include');
+  for (let element of elements) {
+    let src = element.getAttribute('src');
+    resourceMap.set(src, null);
+  }
+
   // console.log(window.performance.getEntriesByType("resource"));
   // console.log(resourceMap);
 

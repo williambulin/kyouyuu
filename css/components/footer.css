@@ -1,0 +1,76 @@
+@import url('/kyouyuu/css/theme.css');
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+  gap: 2em;
+  height: 3em;
+}
+
+
+footer .logo {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+footer .spacer {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+footer .spacer-small {
+  width: 1em;
+}
+
+footer h3 {
+  font-weight: normal;
+}
+
+footer a {
+  font-weight: bold;
+  font-size: 1.0em;
+  color: var(--on-background-color);
+}
+
+footer a:hover {
+  color: rgba(var(--on-background), 0.5);
+}
+
+footer .fab {
+  font-size: 1.0em;
+}
+
+footer .fas {
+  font-size: 1.0em;
+}
+
+footer .clickable {
+  cursor: pointer;
+}
+
+footer .clickable:hover {
+  color: rgba(var(--on-background), 0.5);
+}
+
+footer .profile {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+footer .profile .avatar {
+  height: 75%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  background-color: rgba(var(--on-background), 0.1);
+}

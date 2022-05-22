@@ -10,6 +10,7 @@
 @import url('/kyouyuu/css/theme.css');
 @import url('/kyouyuu/css/components/scrollbar.css');
 @import url('/kyouyuu/css/components/header.css');
+@import url('/kyouyuu/css/components/footer.css');
 
 * {
   transition: all 0.05s linear;
@@ -25,10 +26,10 @@ body {
 
 html {
   /* Use Quicksand */
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
 
   /* Use Product Sans */
-  /* font-family: 'Product Sans', sans-serif; */
+  font-family: 'Product Sans', sans-serif;
 }
 
 body {
@@ -85,4 +86,8 @@ a {
 
 .contained-small {
   max-width: calc(1280px * 0.75);
+}
+
+.content-padding {
+  margin: 0em 3em;
 }
