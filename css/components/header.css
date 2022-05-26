@@ -17,6 +17,18 @@ header .logo {
   display: flex;
 }
 
+header .title {
+  margin: auto 0.5em;
+  font-weight: normal;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 768px) {
+  header .title {
+    display: none;
+  }
+}
+
 header .spacer {
   flex: 1;
   flex-grow: 1;
@@ -64,4 +76,14 @@ header .profile .avatar {
   padding: 0;
   display: flex;
   background-color: rgba(var(--on-background), 0.1);
+}
+
+header .profile-name {
+  margin: auto
+}
+
+@media only screen and (max-width: 768px) {
+  header .profile-name {
+    display: none;
+  }
 }
