@@ -7,6 +7,12 @@
 /* Import Quicksand font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700');
 
+/* Import Noto Sans Japanese font */
+@import url('https://fonts.googleapis.com/css?family=Noto Sans Japanese:300,400,500,600,700');
+
+/* Import Caveat font */
+@import url('https://fonts.googleapis.com/css?family=Caveat:300,400,500,600,700');
+
 @import url('/kyouyuu/css/theme.css');
 @import url('/kyouyuu/css/components/scrollbar.css');
 @import url('/kyouyuu/css/components/header.css');
