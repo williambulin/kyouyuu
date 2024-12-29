@@ -1,5 +1,8 @@
 /* Import FontAwesome 6 CSS */
-@import url('https://use.fontawesome.com/releases/v6.0.0-beta3/css/all.css');
+@import url('https://use.fontawesome.com/releases/v6.7.0/css/all.css');
+
+/* Import Material Symbols CSS */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 
 /* Import Product Sans font */
 @import url('https://fonts.googleapis.com/css?family=Product+Sans:300,400,500,600,700');
